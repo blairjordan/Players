@@ -1,0 +1,29 @@
+{
+    "players":[
+        {
+            "firstname": "Hubert",
+            "lastname": "Cumberdale",
+            "team": "Team2",
+            "position": "Center",
+            "playerNumber": 13,
+            "bio": "This player is extremely good. Once, he kicked the ball so far, it landed on the planet mars.",
+            "imageUrl": "http://placehold.it/120x120&text=image1",
+            "games": [
+                { "game": 1, "throws": 4, "kicks": 19, "backflips": 27 }
+            ]
+        },
+        {
+            "firstname": "Jeremy",
+            "lastname": "Fisher",
+            "team": "Team1",
+            "position": "Back",
+            "playerNumber": 44,
+            "bio": "This guy enjoys daydreaming, and doesn't pay much attention to the game.",
+            "imageUrl": "http://placehold.it/120x120&text=image2",
+            "games": [
+                { "game": 1, "throws": 8, "kicks": 16, "backflips": 5 },
+                { "game": 2, "throws": 14, "kicks": 2, "backflips": 14 }
+            ]
+        }
+    ]
+}

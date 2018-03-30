@@ -1,0 +1,30 @@
+
+$primary-text: #fff;
+$primary-color: #00aafe;
+$secondary-color: #01295d;
+
+body {
+  background: radial-gradient(circle, #fff, $primary-color, $secondary-color);
+}
+#app {
+  background-color: $secondary-color;
+  padding: 1.5em 1.5em 0;
+  margin: 1.3em auto;
+}
+
+h1, h4 {
+  color: $primary-text;
+}
+
+.btn-primary {
+  background-color: $primary-color;
+}
+
+.card {
+  .card-header {
+    background-color: $secondary-color;
+    color: $primary-text;
+    padding: 0;
+    flex-shrink: 0;
+  }
+}
